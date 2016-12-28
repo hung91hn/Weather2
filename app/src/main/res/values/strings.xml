@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="your_location">Vị trí hiện tại</string>
+    <string name="unknow">Không rõ</string>
+
+    <string name="area_name">Khu vực</string>
+    <string name="country_name">Quốc gia</string>
+    <string name="timezone">Múi Giờ</string>
+
+    <string name="iconPhrase">Trạng thái</string>
+    <string name="day">Ban ngày</string>
+    <string name="night">Ban đêm</string>
+    <string name="temperature">Nhiệt độ</string>
+    <string name="precipitationProbability">Xác suất mưa</string>
+    <string name="hourlyWeather">Thời tiết hàng giờ</string>
+    <string name="dailyWeather">Thời tiết hàng ngày</string>
+
+    <string-array name="day_in_week">
+        <item>Chủ nhật</item>
+        <item>Thứ 2</item>
+        <item>Thứ 3</item>
+        <item>Thứ 4</item>
+        <item>Thứ 5</item>
+        <item>Thứ 6</item>
+        <item>Thứ 7</item>
+    </string-array>
+
+    <string name="add_location">Thêm địa điểm</string>
+    <string name="delete_location">Nhấn và giữ để xóa 1 địa điểm</string>
+    <string name="insert_area">Nhập tên khu vực (không dấu)</string>
+    <string name="use_gps">Định vị</string>
+
+    <string name="findding">Đang tìm...</string>
+    <string name="null_location">Không có vị trí nào phù hợp</string>
+    <string name="select_location">Hãy chọn vị trí của bạn</string>
+
+    <string name="setting_title">Thiết Lập</string>
+    <string name="level">Đơn vị</string>
+    <string name="bad_weather">Thời tiết xấu</string>
+    <string name="update_time">Thời gian update</string>
+    <string name="version">Phiên bản</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_hourly_time"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iv_hourly_icon"
+        android:src="@mipmap/weather"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/tv_hourly_temp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

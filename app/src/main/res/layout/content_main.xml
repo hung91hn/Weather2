@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.hung91hn.weather.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/area_name" />
+
+    <TextView
+        android:id="@+id/tv_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/country_name" />
+
+    <TextView
+        android:id="@+id/tv_TimeZone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timezone" />
+
+    <ImageView
+        android:id="@+id/iv_WeatherIcon"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/weather" />
+
+    <TextView
+        android:id="@+id/tv_weatherPhrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iconPhrase" />
+
+    <TextView
+        android:id="@+id/tv_dayLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/day" />
+
+    <TextView
+        android:id="@+id/tv_Temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature" />
+
+    <TextView
+        android:id="@+id/tv_PrecipitationProbability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/precipitationProbability" />
+
+    <TextView
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hourlyWeather" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_main_hourly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dailyWeather" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_main_daily"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
